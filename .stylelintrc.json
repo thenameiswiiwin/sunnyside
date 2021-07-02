@@ -1,1 +1,19 @@
-{}
+{
+  "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-order": [
+      "display",
+      "width",
+      "height",
+      "font-size",
+      "font-weight",
+      "margin",
+      "padding",
+      "border",
+      "background-color",
+      "color"
+    ]
+  }
+}
