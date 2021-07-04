@@ -1,0 +1,34 @@
+:root {
+  /* COLORS */
+  --clr-primary-red-soft: hsl(7, 99%, 70%);
+  --clr-primary-yellow: hsl(51, 100%, 49%);
+  --clr-primary-cyan-desaturated: hsl(167, 40%, 24%); /* Graphic design text */
+  --clr-primary-blue-dark: hsl(198, 62%, 26%); /* Photography text */
+  --clr-primary-cyan-moderate: hsl(168, 34%, 41%); /* Footer */
+  --clr-neutral-blue-desaturated: hsl(212, 27%, 19%);
+  --clr-neutral-blue-grayish-darker: hsl(213, 9%, 39%);
+  --clr-neutral-blue-grayish-dark: hsl(232, 10%, 55%);
+  --clr-neutral-blue-grayish: hsl(210, 4%, 67%);
+  --clr-neutral-white: hsl(0, 0%, 100%);
+
+  /* FONT FAMILY */
+  --ff-primary: "Barlow", sans-serif;
+  --ff-secondary: "Fraunces", serif;
+
+  /* FONT WEIGHT */
+  --fw-semiBold: 600;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  /* FONT SIZE */
+  --fs-sm: min(1.125rem, 4vw);
+  --fs-md: min(1.875rem, 5vw);
+  --fs-lg: min(2.1875rem, 7vw);
+  --fs-xl: min(10vw, 3.125rem);
+  --fs-btn: min(1.25rem, 5vw);
+
+  /* WIDTH */
+  --w-sm: 20em;
+  --w-md: 48em;
+  --w-lg: 71.25em;
+}
