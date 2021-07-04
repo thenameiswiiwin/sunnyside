@@ -1,19 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!------------ FONT ------------>
-		<!------------ STYLESHEET ------------>
-		<link rel="stylesheet" href="/src/styles/main.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!------------ FONT ------------>
+    <!------------ STYLESHEET ------------>
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <title>Sunnyside</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__logo">
+            <img src="../src/assets/images/logo.svg" alt="Sunnyside logo" />
+          </div>
+          <!-- Mobile Nav -->
+          <div class="nav__menu">
+            <img
+              src="../src/assets/images/icon-hamburger.svg"
+              alt="Navigation icon-hamburger"
+            />
+          </div>
+          <!-- Desktop Nav -->
+          <ul class="nav__list">
+            <li><a href="./index.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#" class="btn nav__btn">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!------------ END HEADER ------------>
 
-		<title>Sunnyside</title>
-	</head>
-	<body>
-		<h1>Features</h1>
+    <!------------ HERO ------------>
+    <div class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">We are creatives</h1>
+        <div class="hero__arrow">
+          <img
+            src="../src/assets/images/icon-arrow-down.svg"
+            alt="Arrow down"
+          />
+        </div>
+      </div>
+    </div>
+    <!------------ END HERO ------------>
 
-		<!------------ SCRIPT ------------>
-		<script src="/src/script/app.js"></script>
-	</body>
+    <!------------ MAIN ------------>
+    </main>
+    <!---------- END MAIN ------------>
+
+    <!------------ SCRIPT ------------>
+    <script src="/src/script/app.js"></script>
+  </body>
 </html>
