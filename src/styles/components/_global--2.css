@@ -9,3 +9,28 @@ html {
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-size: var(--fs-normal);
+  font-family: var(--ff-primary);
+  line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 48em);
+}

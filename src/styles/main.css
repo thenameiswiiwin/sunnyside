@@ -1,3 +1,7 @@
 @import "../styles/components/_normalize--0.css";
-@import "../styles/components/variables--1.css";
-@import "../styles/components/global--2.css";
+@import "../styles/components/_variables--1.css";
+@import "../styles/components/_global--2.css";
+@import "../styles/components/_header--3.css";
+@import "../styles/components/_hero--4.css";
+@import "../styles/components/_main--5.css";
+@import "../styles/components/_footer--6.css";

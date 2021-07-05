@@ -21,6 +21,7 @@
   --fw-black: 900;
 
   /* FONT SIZE */
+  --fs-normal: 1rem;
   --fs-sm: min(1.125rem, 4vw);
   --fs-md: min(1.875rem, 5vw);
   --fs-lg: min(2.1875rem, 7vw);

@@ -1,0 +1,23 @@
+.hero {
+  background:
+    url("/src/assets/images/mobile/image-header.jpg") no-repeat
+    center/cover;
+  min-height: 50em;
+}
+
+.hero__content {
+  min-height: 50em;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: var(--fs-xl);
+  font-family: var(--ff-secondary);
+  color: var(--clr-neutral-white);
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+
+.hero__arrow {
+  margin-top: 8em;
+}
