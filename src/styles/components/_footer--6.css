@@ -1,0 +1,17 @@
+.footer {
+  padding: 4em 0;
+  background-color: var(--clr-primary-cyan);
+  color: var(--clr-primary-cyan-moderate);
+}
+
+.footer__title > img {
+  width: 65%;
+}
+
+.footer__content > * + * {
+  margin-top: 2em;
+}
+
+.footer__socials {
+  padding: 1.75em 0;
+}

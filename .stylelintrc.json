@@ -5,6 +5,8 @@
     "order/order": ["custom-properties", "declarations"],
     "order/properties-order": [
       "display",
+      "justify-content",
+      "align-items",
       "width",
       "height",
       "font-size",

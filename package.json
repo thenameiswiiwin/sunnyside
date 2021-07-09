@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint:css": "stylelint --fix **/*.css",
-    "lint:js": "eslint --fix **/*.js",
+    "lint:js": "eslint --fix ./src/script/app.js",
     "lint": "npm-run-all lint:*",
     "format": "prettier -w ."
   },
