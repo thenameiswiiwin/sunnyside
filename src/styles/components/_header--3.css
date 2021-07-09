@@ -1,6 +1,11 @@
 .header {
   position: absolute;
   width: 100%;
+  top: 0;
+}
+
+.container__nav {
+  width: min(90%, 48em);
 }
 
 .nav {
