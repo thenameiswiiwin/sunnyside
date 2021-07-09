@@ -2,22 +2,22 @@
   background:
     url("/src/assets/images/mobile/image-header.jpg") no-repeat
     center/cover;
-  min-height: 50em;
+  height: 45em;
 }
 
 .hero__content {
-  min-height: 50em;
+  height: 45em;
   text-align: center;
 }
 
 .hero__title {
   font-size: var(--fs-xl);
-  font-family: var(--ff-secondary);
+  font-family: var(--ff-primary);
   color: var(--clr-neutral-white);
   text-transform: uppercase;
   letter-spacing: 0.25em;
 }
 
 .hero__arrow {
-  margin-top: 8em;
+  margin-top: 9em;
 }
