@@ -1,0 +1,27 @@
+.footer {
+  padding: 4em 0;
+  background-color: var(--clr-primary-cyan);
+  color: var(--clr-primary-cyan-moderate);
+}
+
+.footer__title {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+}
+
+.footer__title > img {
+  width: 55%;
+}
+
+.footer__content > * + * {
+  margin-top: 2em;
+}
+
+.footer__nav {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+}
+
+.footer__socials {
+  padding: 1.75em 0;
+}
