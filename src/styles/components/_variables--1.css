@@ -4,6 +4,7 @@
   --clr-primary-yellow: hsl(51, 100%, 49%);
   --clr-primary-cyan-desaturated: hsl(167, 40%, 24%); /* Graphic design text */
   --clr-primary-blue-dark: hsl(198, 62%, 26%); /* Photography text */
+  --clr-primary-cyan: #9ad9c9; /* Footer Background */
   --clr-primary-cyan-moderate: hsl(168, 34%, 41%); /* Footer */
   --clr-neutral-blue-desaturated: hsl(212, 27%, 19%);
   --clr-neutral-blue-grayish-darker: hsl(213, 9%, 39%);
