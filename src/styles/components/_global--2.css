@@ -24,6 +24,41 @@ p {
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-black);
+}
+
+h4 {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-semiBold);
+}
+
+p {
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw--normal);
+}
+
+h1 {
+  font-size: var(--fs-xl);
+}
+
+h2,
+h3 {
+  font-size: var(--fs-lg);
+}
+
+h4,
+p {
+  font-size: var(--fs-sm);
+}
+
+span {
+  font-size: var(--fs-xs);
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -36,12 +71,7 @@ img {
 
 .btn {
   display: inline-block;
-}
-
-.border--yellow {
-  border-color: var(--clr-primary-yellow);
-}
-
-.border--softRed {
-  border-color: var(--clr-primary-red-soft);
+  font-size: var(--fs-btn);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-black);
 }

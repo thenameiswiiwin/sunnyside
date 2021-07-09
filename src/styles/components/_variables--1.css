@@ -17,6 +17,7 @@
   --ff-secondary: "Barlow", sans-serif;
 
   /* FONT WEIGHT */
+  --fw--normal: 400;
   --fw-semiBold: 600;
   --fw-bold: 700;
   --fw-black: 900;

@@ -12,6 +12,10 @@
   padding: 2em 0;
 }
 
+.nav__logo > img {
+  width: 9em;
+}
+
 @media (min-width: 20em) and (max-width: 48em) {
   .nav__list {
     display: none;

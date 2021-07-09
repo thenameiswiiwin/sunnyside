@@ -8,6 +8,7 @@
 }
 
 .service__text {
+  position: relative;
   padding: 3em 0;
   text-align: center;
 }
@@ -18,35 +19,33 @@
 
 .service__title {
   line-height: 1.2;
-  font-size: var(--fs-lg);
-  font-weight: var(--fw-bold);
-  font-family: var(--ff-primary);
-}
-
-.service__description {
-  font-size: var(--fs-sm);
 }
 
 /* BUTTON */
 .service__btn {
-  position: relative;
-  font-size: var(--fs-btn);
-  font-family: var(--ff-primary);
   text-transform: uppercase;
-  font-weight: var(--fw-black);
   z-index: 1;
 }
 
 .service__btn--underline {
   z-index: -1;
+  bottom: 4em;
+  left: 5.8em;
   position: absolute;
-  top: 3.9em;
-  left: -0.4em;
-  padding: 0 3.875em;
-  border-width: 0.2em;
-  border-style: solid;
+  padding: 0 5.5em;
+  border: 0.45em solid;
   border-radius: 1em;
-  opacity: 0.4;
+  opacity: 0.3;
+}
+
+.underline--yellow {
+  background-color: var(--clr-primary-yellow);
+  border-color: var(--clr-primary-yellow);
+}
+
+.underline--softRed {
+  background-color: var(--clr-primary-red-soft);
+  border-color: var(--clr-primary-red-soft);
 }
 
 /* BOTTOM SECTION */
@@ -74,14 +73,11 @@
 
 .graphic__title,
 .photography__title {
-  font-size: var(--fs-lg);
-  font-family: var(--ff-primary);
   text-transform: capitalize;
 }
 
 .graphic__description,
 .photography__description {
-  font-size: var(--fs-xs);
   margin-top: 2em;
 }
 
@@ -98,9 +94,6 @@
 .testimonials__title {
   margin-bottom: 4em;
   text-transform: uppercase;
-  font-size: var(--fs-sm);
-  font-family: var(--ff-primary);
-  font-weight: var(--fw-600);
   letter-spacing: 0.28em;
 }
 
@@ -119,15 +112,6 @@
 .article__img {
   width: 5em;
   border-radius: 50%;
-}
-
-.article__name {
-  font-size: var(--fs-sm);
-  font-family: var(--ff-primary);
-}
-
-.article__position {
-  font-size: var(--fs-xs);
 }
 
 /* PROJECTS */
