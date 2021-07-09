@@ -12,8 +12,8 @@
   --clr-neutral-white: hsl(0, 0%, 100%);
 
   /* FONT FAMILY */
-  --ff-primary: "Barlow", sans-serif;
-  --ff-secondary: "Fraunces", serif;
+  --ff-primary: "Fraunces", serif;
+  --ff-secondary: "Barlow", sans-serif;
 
   /* FONT WEIGHT */
   --fw-semiBold: 600;
@@ -21,8 +21,8 @@
   --fw-black: 900;
 
   /* FONT SIZE */
-  --fs-normal: 1rem;
-  --fs-sm: min(1.125rem, 4vw);
+  --fs-xs: min(1rem, 3vw);
+  --fs-sm: min(1.25rem, 4vw);
   --fs-md: min(1.875rem, 5vw);
   --fs-lg: min(2.1875rem, 7vw);
   --fs-xl: min(10vw, 3.125rem);
