@@ -1,0 +1,136 @@
+/* TOP AND MIDDLE SECTION */
+.service > * {
+  flex-basis: 100%;
+}
+
+.service__content {
+  order: 2;
+}
+
+.service__text {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.service__text > * + * {
+  padding-top: 2.875em;
+}
+
+.service__title {
+  line-height: 1.2;
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-primary);
+}
+
+.service__description {
+  font-size: var(--fs-sm);
+}
+
+/* BUTTON */
+.service__btn {
+  position: relative;
+  font-size: var(--fs-btn);
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  font-weight: var(--fw-black);
+  z-index: 1;
+}
+
+.service__btn--underline {
+  z-index: -1;
+  position: absolute;
+  top: 3.9em;
+  left: -0.4em;
+  padding: 0 3.875em;
+  border-width: 0.2em;
+  border-style: solid;
+  border-radius: 1em;
+  opacity: 0.4;
+}
+
+/* BOTTOM SECTION */
+.graphic,
+.photography {
+  position: relative;
+}
+
+.graphic__text,
+.photography__text {
+  position: absolute;
+  bottom: 4em;
+  margin-inline: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.graphic__text {
+  color: var(--clr-primary-cyan-desaturated);
+}
+
+.photography__text {
+  color: var(--clr-primary-blue-dark);
+}
+
+.graphic__title,
+.photography__title {
+  font-size: var(--fs-lg);
+  font-family: var(--ff-primary);
+  text-transform: capitalize;
+}
+
+.graphic__description,
+.photography__description {
+  font-size: var(--fs-xs);
+  margin-top: 2em;
+}
+
+/* TESTIMONIALS */
+.testimonials__title,
+.article__position {
+  color: var(--clr-neutral-blue-grayish);
+}
+
+.testimonials__content {
+  padding: 5em 0;
+}
+
+.testimonials__title {
+  margin-bottom: 4em;
+  text-transform: uppercase;
+  font-size: var(--fs-sm);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-600);
+  letter-spacing: 0.28em;
+}
+
+.testimonials__article > * + * {
+  margin-top: 4em;
+}
+
+.article {
+  text-align: center;
+}
+
+.article > * + * {
+  margin-top: 2em;
+}
+
+.article__img {
+  width: 5em;
+  border-radius: 50%;
+}
+
+.article__name {
+  font-size: var(--fs-sm);
+  font-family: var(--ff-primary);
+}
+
+.article__position {
+  font-size: var(--fs-xs);
+}
+
+/* PROJECTS */
+.projects > * {
+  flex-basis: 50%;
+}
