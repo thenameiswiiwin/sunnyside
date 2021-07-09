@@ -11,8 +11,7 @@ html {
 }
 
 body {
-  font-size: var(--fs-normal);
-  font-family: var(--ff-primary);
+  font-size: var(--fs-sm);
   line-height: 1.6;
 }
 
@@ -32,5 +31,17 @@ img {
 
 .container {
   margin-inline: auto;
-  width: min(90%, 48em);
+  width: min(73%, 48em);
+}
+
+.btn {
+  display: inline-block;
+}
+
+.border--yellow {
+  border-color: var(--clr-primary-yellow);
+}
+
+.border--softRed {
+  border-color: var(--clr-primary-red-soft);
 }
