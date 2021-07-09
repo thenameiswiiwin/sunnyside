@@ -14,6 +14,7 @@ Sunnyside is a full-service creative agency.
 - HTML5
 - CSS3
 - JavaScript
+- Tailwind CSS
 - Git
 ```
 
@@ -23,52 +24,34 @@ Sunnyside is a full-service creative agency.
 - Prettier
 - ESLint (airbnb)
 - StyleLint (order)
+- NPM Run All
 ```
 
 ## Getting Started
 
-### Clone Repo
+```bash
+# Clone Repo
+$ git clone https://github.com/thenameiswiiwin/sunnyside.git
 
-```
-git clone https://github.com/thenameiswiiwin/sunnyside.git
-```
-
-### Change Directory
-
-```
-cd sunnyside
+# Install Dependencies
+$ npm install
 ```
 
-### Install Dependencies
+## Scripts
 
-```
-npm install
-```
+```bash
+# Run StyleLint
+$ npm run lint:css
 
-### Scripts
+# Run ESLint
+$ npm run lint:js
 
-##### Run StyleLint
+# Run ESLint & StyleLint
+$ npm run lint
 
-```
-npm run lint:css
-```
+# Prettier
+$ npm run format
 
-##### Run ESLint
-
-```
-npm run lint:js
-```
-
-##### Run ESLint & StyleLint
-
-```
-npm run lint
-```
-
-##### Prettier
-
-```
-npm run format
 ```
 
 ## Architecture
@@ -90,19 +73,20 @@ npm run format
 │
 │ ├── styles
 │ │ ├── components
-│ │ │ ├── \_0-normalized.css
-│ │ │ ├── \_1-variables.css
-│ │ │ ├── \_2-global.css
-│ │ │ ├── \_3-header.css
-│ │ │ ├── \_4-main.css
-│ │ │ ├── \_5-footer.css
-│ │ │ ├── \_6-responsive.css
+│ │ │ ├── \_footer--6.css
+│ │ │ ├── \_global--2.css
+│ │ │ ├── \_header--3.css
+│ │ │ ├── \_hero--4.css
+│ │ │ ├── \_main--5.css
+│ │ │ ├── \_normalized--0.css
+│ │ │ ├── \_variables--1.css
 │ │ ├── main.css
 │
 ├── .eslintrc.js
 ├── .gitignore
 ├── .prettierrc
 ├── .stylelintrc.json
+├── package-lock.json
 ├── package.json
 └── README.md
 
